@@ -1,0 +1,28 @@
+{
+  "name": "mitt-kak",
+  "version": "1.0.0",
+  "description": "A bot that interacts with the Mitt Käk! API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pigges/Mitt-Kak.git"
+  },
+  "author": "Pigges",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pigges/Mitt-Kak/issues"
+  },
+  "homepage": "https://github.com/Pigges/Mitt-Kak#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
